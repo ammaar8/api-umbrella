@@ -1,10 +1,10 @@
 # Rough work
 
-# Need to use docker compose
-# You need - 
-# API umbrella, postgres, opensearch
-# 
-# Talk about how to setup a bare bones version
+Need to use docker compose
+You need - 
+API umbrella, postgres, opensearch
+
+Talk about how to setup a bare bones version
 
 ```
 docker-compose.yml
@@ -63,6 +63,8 @@ postgresql:
   migrations:
     username: api_umbrella_owner
     password: api_umbrella_owner_password
+
+secret_key: 1f499c681ae745c846c31c1976b2a693
 ```
 
 1. Start only postgres `docker compose up postgres -d`
