@@ -47,17 +47,6 @@ postgresql:
   host: postgres
   port: 5432
   database: api_umbrella
-  username: web:
-  default_host: "0.0.0.0"
-  admin:
-    auth_strategies:
-      enabled:
-        - "local"
-
-postgresql:
-  host: postgres
-  port: 5432
-  database: api_umbrella
   username: api_umbrella_app
   password: api_umbrella_app_password
   migrations:
